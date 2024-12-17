@@ -5,7 +5,7 @@
 A simple finance calculator written in python3 that allow you to calculate projected interest or bond repayment.
 
 ### Table of content
-*[finance_calculation]()
+*[finance_calculation](https://github.com/olamilekan147/Tasks6/blob/main/finance_calculators.py)
 
 ### Installation:
 You need to have python3
@@ -15,7 +15,7 @@ You need to have python3
 
 ### Usage 
 Follow prompts in program
-![Screenshot](finance.png)
+![Screenshot](fhttps://github.com/olamilekan147/Tasks6/blob/main/Finance.png)
 
 
 ### Autor
