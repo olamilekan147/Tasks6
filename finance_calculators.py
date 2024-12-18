@@ -8,7 +8,7 @@ else:
         try:
             amount = int(input("Enter the amount you are depositing: "))
             interest_rate = float(input("Enter the interest rate (as a percentage): "))
-            years = int(input("Enter the number of years you plan on investing: "))
+            annum = int(input("Enter the number of years you plan on investing: "))
             interest = input("Do you want 'simple' or 'compound' interest? ").lower()
 
             if interest not in ['simple', 'compound']:
@@ -16,25 +16,28 @@ else:
             else:
                 # Step 3: Calculate returns based on selected type of interest
                 if interest == 'simple':
-                    total_amount = amount * (1 + (interest_rate / 100) * years)
-                    print(f"The interest earned after {years} years with simple interest will be: ${total_amount - amount:.2f}")
+                    total_amount = amount * (1 + (interest_rate / 100) * annum)
+                    print(f"The interest earned after {annum} years with simple interest will be: ${total_amount - amount:.2f}")
                 
                 elif interest == 'compound':
-                    total_amount = amount * ((1 + (interest_rate / 100)) ** years)
-                    print(f"The interest earned after {years} years with compound interest will be: ${total_amount - amount:.2f}")
-
+                    total_amount = amount * ((1 + (interest_rate / 100)) ** annum)
+                    print(f"The interest earned after {annum} years with compound interest will be: ${total_amount - amount:.2f}")
+                    
+                    
+        # if the user dont not enter a number.
+        
         except ValueError:
             print("Error: Please enter valid numeric values.")
 
-    # Bond calulation below:
+    # Bond calculation below:
         
     elif investment_type.casefold() == 'bond':
         try:
-            amount = int(input("The present value of the house: "))
+            price = int(input("The present value of the house: "))
             interest_rate = float(input("The interest rate (as a percentage): "))
             interest_rate = (interest_rate / 100) / 12
-            years = int(input("The number of months they plan to take to repay the bond: "))
-            repayment = (interest_rate * amount)/(1 - (1 + interest_rate)**(-years))
+            annum = int(input("The number of months they plan to take to repay the bond: "))
+            repayment = (interest_rate * price)/(1 - (1 + interest_rate)**(-annum))
             print("This is your monthly repayment: ", round(repayment, 2))
 
         except ValueError:
