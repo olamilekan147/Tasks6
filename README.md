@@ -15,7 +15,7 @@ You need to have python3
 
 ### Usage 
 Follow prompts in program
-![Screenshot](fhttps://github.com/olamilekan147/Tasks6/blob/main/Finance.png)
+![Screenshot](fhttps://github.com/olamilekan147/Tasks6/blob/main/Finance.jpeg)
 
 
 ### Autor
