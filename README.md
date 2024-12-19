@@ -6,7 +6,7 @@ A simple finance calculator written in python3 that allow you to calculate proje
 
 # Table of content
 - [About](#About-Project)
-- [Installation](#Installation:)
+- [Installation](#Installation)
 - [Usage](#Usage)
 - [Author](#Author)
 
