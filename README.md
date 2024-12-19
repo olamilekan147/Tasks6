@@ -13,8 +13,9 @@ A simple finance calculator written in python3 that allow you to calculate proje
 # Installation:
 You need to have python3
 
-1. ```git clone```
-2. ```python3 finance_calculators.py```
+1. ```git clone https://github.com/olamilekan147/Tasks6/```
+2. ```cd Tasks6```
+3. ```python3 finance_calculators.py```
 
 # Usage 
 Follow prompts in program
